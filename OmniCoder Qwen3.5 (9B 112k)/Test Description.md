@@ -1,0 +1,1 @@
+Tested with: [OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF](https://ollama.com/zfujicute/OmniCoder-Qwen3.5-9B-Claude-4.6-Opus-Uncensored-v2-GGUF) with a 112k context window.  See my [blog post](https://joshrising.com/a-local-ai-coding-assistant-how-hard-could-it-be-pretty-hard-actually/) for additional details about the modelfile.

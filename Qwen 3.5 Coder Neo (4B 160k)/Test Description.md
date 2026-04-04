@@ -1,0 +1,1 @@
+Tested with: [hf.co/Jackrong/Qwen3.5-4B-Neo-GGUF:Q5_K_M](https://huggingface.co/Jackrong/Qwen3.5-4B-Neo-GGUF) with a 160k context window.  See my [blog post](https://joshrising.com/a-local-ai-coding-assistant-how-hard-could-it-be-pretty-hard-actually/) for additional details about the modelfile.
