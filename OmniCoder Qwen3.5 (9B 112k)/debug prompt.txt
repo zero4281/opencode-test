@@ -1,0 +1,15 @@
+When I run hf_search.py with:
+
+$ python ./hf_search.py -a Jackrong
+
+I get this error:
+`
+  File "/home/zero/Code/opencode-test/OmniCoder Qwen3.5 (9B 112k)/./hf_search.py", line 368
+    f"- {model.get('id')} (**{model.get('type')}**,
+    ^
+SyntaxError: unterminated f-string literal (detected at line 368)
+`
+
+Test the script to check for errors before fixing them.
+
+Here's some relevant documentation: https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api.md

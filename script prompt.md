@@ -1,0 +1,1 @@
+Write a python script that can search models in the huggingface hub.  Save it to ./hf_search.py.  Use this documentation as a starting point.  https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api.md

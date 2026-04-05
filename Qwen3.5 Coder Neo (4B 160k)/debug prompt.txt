@@ -1,0 +1,13 @@
+When I run hf_search.py with:
+
+$ python hf_search.py -q "Jackrong"
+
+I get this error:
+`
+Hugging Face API error: HfApi.list_models() got an unexpected keyword argument 'direction'
+No results found for: 'Jackrong'
+`
+
+Test the script to check for errors before fixing them.
+
+Here's some relevant documentation: https://huggingface.co/docs/huggingface_hub/en/package_reference/hf_api.md
