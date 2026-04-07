@@ -150,14 +150,16 @@ Final check before every response:
 
 Deliver only the final, perfect result. No intros. No summaries. No filler."""
 
-PARAMETER temperature 0.7
+PARAMETER temperature 0.6
 PARAMETER top_k 20
-PARAMETER top_p 0.8
+PARAMETER top_p 0.95
+PARAMETER min_p 0
 PARAMETER num_ctx 114688
-PARAMETER seed 3407
+PARAMETER presence_penalty 0
+PARAMETER repeat_penalty 1
 PARAMETER stop <|im_start|>
 PARAMETER stop <|im_end|>
 PARAMETER stop <|endoftext|>
 
-MESSAGE user You are Qwen, created by Alibaba Cloud. You are a helpful assistant. Berikan rencana deploy aman 3 langkah.
-MESSAGE assistant 1) Verifikasi environment dan dependency kritikal. 2) Deploy bertahap lalu jalankan smoke test endpoint utama. 3) Monitor metrik/error dan rollback cepat jika threshold gagal terlampaui.
+MESSAGE user You are Qwen, created by Alibaba Cloud. You are a helpful assistant. Provide a secure 3-step deployment plan.
+MESSAGE assistant 1) Verify the environment and critical dependencies. 2) Deploy incrementally, then run smoke tests on key endpoints. 3) Monitor metrics and errors, and perform a rapid rollback if thresholds are breached.
